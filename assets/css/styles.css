@@ -8,11 +8,9 @@
 }
 
 .body{
-    height: auto;
     width: 100%;
-    min-height: 100vh;
-    position: relative;
-    background-color: rgb(231, 227, 222);
+    height: 100vh;
+    height: auto;
 }
 
 .header-desktop{
@@ -42,7 +40,7 @@
     border: none;
 }
 
-.navbar-toggler:focus {
+.navbar-toggler:focus{
     text-decoration: none;
     outline: 0;
     box-shadow: none;
@@ -57,7 +55,7 @@
     height: 40px;
 }
 
-main{
+.main-index{
     width: 100%;
 }
 
@@ -72,6 +70,10 @@ main{
 .img-main{
     width: 35%;
     margin: 1% 0 1% 0;
+}
+
+.img-banner-contact{
+    width: 100%;
 }
 
 .img-banner-index{
@@ -96,6 +98,108 @@ main{
     font-family: sans-serif;
 }
 
+.main-contact{
+    display: grid; 
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;  
+    grid-template-areas: 
+      ". h1-contact h1-contact ."
+      "img-banner-contact img-banner-contact img-banner-contact img-banner-contact"
+      "h3-contact h3-contact h3-contact h3-contact"
+      ". form form ."; 
+}
+
+.img-banner-contact{
+    grid-area: img-banner-contact;
+}
+
+.h1-contact{
+    grid-area: h1-contact;
+    margin: 2% auto;
+
+}
+
+.h3-contact{
+    grid-area: h3-contact;
+    font-size: 85%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.form-contact{
+    grid-area: form;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    font-size: 12px;
+}
+
+.button-form{
+    font-size:15px;
+    font-family:Arial;
+    width:50%;
+    height:30px;
+    border-width:1px;
+    color:#666666;
+    border-color:#dcdcdc;
+    font-weight:bold;
+    border-top-left-radius:27px;
+    border-top-right-radius:27px;
+    border-bottom-left-radius:27px;
+    border-bottom-right-radius:27px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    text-shadow:inset 0px 1px 0px #ffffff;
+    background:linear-gradient(#ffffff, #f6f6f6);
+    cursor: pointer;
+    margin: 2% 0 2% 25%;
+}
+  
+.button-form{
+    background: linear-gradient(#f6f6f6, #ffffff);
+}
+
+textarea{
+    width: 100%;
+    font-size: 12px;
+}
+
+.main-about{
+    width: 90%;
+    margin: auto;
+}
+
+.main-about section {
+    width: 100%;
+}
+
+.main-about section h1{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.main-about section img{
+    margin: auto;
+    width: 49%;
+    height: auto;
+}
+
+.main-about section .img-about{
+    width: 49%;
+    border-radius: 10%;
+    height: auto;
+    margin: auto;
+}
+
+.main-about section p{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
 .footer{
     width: 100%;
 }
@@ -104,7 +208,8 @@ main{
     font-size: 14px;
     width: 90%;
     text-align: center;
-    margin: auto auto 2% auto;
+    margin: 5% auto 2% auto;
+    
 }
 
 .footer p{
@@ -120,7 +225,7 @@ main{
 
 .footer section a img{
     width: 8%;
-    max-width: 1% auto 1% auto;
+    margin: 1% auto 1% auto;
 }
 
 @media (min-width:480px) and (orientation: landscape){
@@ -169,6 +274,71 @@ main{
         width: 90%;
         margin: 1% auto 2% auto;
         font-family: sans-serif;
+    }
+
+    .h1-contact{
+        grid-area: h1-contact;
+        font-size: 50px;
+        margin: 2% auto;   
+    }
+
+    .img-banner-contact{
+    grid-area: img-banner-contact;
+    }
+    
+    .h3-contact{
+        grid-area: h3-contact;
+        font-size: 25px;
+        margin: 3% auto;
+        text-align: center;
+    }
+
+    .form-contact{
+        grid-area: form;
+        width: 80%;
+        margin: auto;
+    }
+    
+    label{
+        font-size: 25px;
+    }
+
+    input{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .button-form{
+        font-size:15px;
+        font-family:Arial;
+        width:50%;
+        height:40px;
+        border-width:1px;
+        color:#666666;
+        border-color:#dcdcdc;
+        font-weight:bold;
+        border-top-left-radius:27px;
+        border-top-right-radius:27px;
+        border-bottom-left-radius:27px;
+        border-bottom-right-radius:27px;
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        text-shadow:inset 0px 1px 0px #ffffff;
+        background:linear-gradient(#ffffff, #f6f6f6);
+        cursor: pointer;
+        margin: 2% 0 2% 25%;
+    }
+      
+    .button-form{
+        background: linear-gradient(#f6f6f6, #ffffff);
+    }
+    
+    textarea{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .footer{
+        margin-top: 10%;
     }
     
     .footer h2{
@@ -264,6 +434,18 @@ main{
         text-align: center;
         font-family: sans-serif;
         width: 90%;
+    }
+
+    .main-about section p{
+        margin: auto;
+        margin-top: 40px;
+        width: 100%;
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    .footer{
+        margin-top:0;
     }
 
     .footer h2{
@@ -375,6 +557,107 @@ main{
         width: 90%;
     }
 
+    .img-banner-contact{
+        grid-area: img-banner-contact;
+        width: 70%;
+        margin: auto;
+    }
+
+    .h1-contact{
+        grid-area: h1-contact;
+        font-size: 50px;
+        margin: 1% auto;   
+    }
+        
+    .h3-contact{
+        grid-area: h3-contact;
+        font-size: 30px;
+        margin: 1% auto;
+        text-align: center;
+    }
+    
+    .form-contact{
+        grid-area: form;
+        width: 70%;
+        margin: auto;
+    }
+        
+    label{
+        font-size: 25px;
+    }
+    
+    input{
+        width: 100%;
+        font-size: 20px;
+    }
+        
+    .button-form{
+        font-size:15px;
+        font-family:Arial;
+        width:50%;
+        height:40px;
+        border-width:1px;
+        color:#666666;
+        border-color:#dcdcdc;
+        border-top-left-radius:27px;
+        border-top-right-radius:27px;
+        border-bottom-left-radius:27px;
+        border-bottom-right-radius:27px;
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        text-shadow:inset 0px 1px 0px #ffffff;
+        background:linear-gradient(#ffffff, #f6f6f6);
+        cursor: pointer;
+        margin: 2% 0 2% 25%;
+        font-weight:bold;
+    }
+          
+    .button-form{
+        background: linear-gradient(#f6f6f6, #ffffff);
+    }
+        
+    textarea{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main-about{
+        width: 100%;
+    }
+
+    .main-about section{
+        display: grid; 
+        grid-template-columns: 0.1fr 0.9fr 1fr 0.1fr; 
+        grid-template-areas: 
+        ". h1 h1 ."
+        ". img img-about ."
+        ". p img-about ."
+        ". . . ."; 
+        margin-bottom: 10%;
+    }
+
+    .main-about section h1{
+        width: 100%;
+        margin: 2% auto 4% auto;
+        grid-area: h1;
+    }
+
+    .main-about section img{
+        width: 25%;
+        grid-area: img;
+    }
+
+    .main-about section p{
+        font-size: 15px;
+        width: 100%;
+        grid-area: p
+    }
+
+    .main-about section .img-about{
+        width: 90%;
+        margin: auto;
+        grid-area: img-about;
+    }
+
     .footer h2{
         font-size: 30px;
         width: 90%;
@@ -407,4 +690,95 @@ main{
         margin: auto;  
         margin-right: 2%;
     }
+    .img-banner-contact{
+        grid-area: img-banner-contact;
+        width: 40%;
+        margin: auto;
+    }
+
+    .h1-contact{
+        grid-area: h1-contact;
+        font-size: 50px;
+        margin: 1% auto;   
+    }
+        
+    .h3-contact{
+        grid-area: h3-contact;
+        font-size: 30px;
+        margin: 1% auto;
+        text-align: center;
+    }
+    
+    .form-contact{
+        grid-area: form;
+        width: 70%;
+        margin: auto;
+    }
+        
+    label{
+        font-size: 25px;
+    }
+    
+    input{
+        width: 100%;
+        font-size: 20px;
+    }
+        
+    .button-form{
+        width:50%;
+        font-size:15px;
+        border-width:1px;
+        color:#666666;
+        border-color:#dcdcdc;
+        font-weight:bold;
+        border-top-right-radius:27px;
+        border-top-left-radius:27px;
+        border-bottom-right-radius:27px;
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        text-shadow:inset 0px 1px 0px #ffffff;
+        background:linear-gradient(#ffffff, #f6f6f6);
+        cursor: pointer;
+        margin: 2% 0 2% 25%;
+        font-family:Arial;
+        height:40px;
+        border-bottom-left-radius:27px;
+    }
+          
+    .button-form{
+    background: linear-gradient(#f6f6f6, #ffffff);
+    }
+        
+    textarea{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main-about section{
+        margin-bottom: 60px;
+    }
+
+    .main-about section h1{
+        width: 10%;
+        margin: 20px auto;
+        grid-area: h1;
+        text-align: center;
+    }
+
+    .main-about section img{
+        width: 25%;
+        grid-area: img;
+    }
+
+    .main-about section p{
+        font-size: 25px;
+        width: 100%;
+        grid-area: p
+    }
+
+    .main-about section .img-about{
+        width: 70%;
+        margin: auto;
+        grid-area: img-about;
+    }
+
 }
