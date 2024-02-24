@@ -8,8 +8,8 @@
 }
 
 .body{
-    width: 100%;
     height: 100vh;
+    width: 100%;
     height: auto;
 }
 
@@ -691,28 +691,23 @@ textarea{
         margin-right: 2%;
     }
     .img-banner-contact{
-        grid-area: img-banner-contact;
         width: 40%;
         margin: auto;
     }
 
     .h1-contact{
-        grid-area: h1-contact;
         font-size: 50px;
         margin: 1% auto;   
     }
         
     .h3-contact{
-        grid-area: h3-contact;
         font-size: 30px;
         margin: 1% auto;
         text-align: center;
     }
     
     .form-contact{
-        grid-area: form;
         width: 70%;
-        margin: auto;
     }
         
     label{
@@ -745,7 +740,7 @@ textarea{
     }
           
     .button-form{
-    background: linear-gradient(#f6f6f6, #ffffff);
+        background: linear-gradient(#f6f6f6, #ffffff);
     }
         
     textarea{
