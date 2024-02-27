@@ -8,7 +8,7 @@
     color: #3a3e3b;
 }
 
-.body{
+body{
     height: auto;
     width: 100%;
     min-height: 100vh;
@@ -292,7 +292,7 @@ textarea{
 
 .footer{
     width: 100%;
-    margin-bottom: 0;
+    height: 0vh;
     position: absolute;
     bottom: 0; 
 }
@@ -301,8 +301,7 @@ textarea{
     font-size: 14px;
     width: 90%;
     text-align: center;
-    margin: 5% auto 2% auto;
-    
+    margin: 5% auto 2% auto
 }
 
 .footer p{
