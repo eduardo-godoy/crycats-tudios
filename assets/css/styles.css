@@ -55,7 +55,7 @@ body{
 
 .main-index{
     width: 100%;
-    min-height: 30vh;
+    min-height: 80%;
 }
 
 .section-index{
@@ -1129,10 +1129,5 @@ textarea{
         margin: 20px 0 10px 5px;
         width: 100%;
     }
-
-    .footer{
-       
-    }
-
 
 }
