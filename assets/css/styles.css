@@ -8,6 +8,10 @@
     color: #3a3e3b;
 }
 
+body{
+    min-height: 100vh;
+}
+
 .header-desktop{
     display: none;
 }
