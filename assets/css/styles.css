@@ -55,7 +55,7 @@ body{
 
 .main-index{
     width: 100%;
-    min-height: 60vh;
+    min-height: 65vh;
 }
 
 .section-index{
@@ -112,7 +112,7 @@ body{
 }
 
 .main-contact{
-    min-height: 60vh;
+    min-height: 65vh;
 }
 
 .h1-contact{
@@ -170,7 +170,7 @@ textarea{
     width: 90%;
     margin: auto;
     min-height: 80%;
-    min-height: 60vh;
+    min-height: 65vh;
 }
 
 .main-about section {
@@ -205,7 +205,7 @@ textarea{
 }
 
 .main-services{
-   min-height: 60vh;
+   min-height: 65vh;
 }
 
 .main-services section{
