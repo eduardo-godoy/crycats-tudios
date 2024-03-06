@@ -1,0 +1,136 @@
+.main-about{
+    width: 90%;
+    margin: auto;
+    min-height: 80%;
+    min-height: 65vh;
+
+    section{
+        width: 100%;
+        
+        h1{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+        }
+        
+        img{
+            margin: auto;
+            width: 49%;
+            height: auto;
+        }
+        
+        .img-about{
+            width: 49%;
+            border-radius: 10%;
+            height: auto;
+            margin: auto;
+        }
+        
+        p{
+            margin: auto;
+            margin-top: 20px;
+            width: 100%;
+            text-align: justify;
+        }
+        
+    }
+
+}
+
+@media (min-width:768px){
+
+    .main-about{
+        section{
+            p{
+                margin: auto;
+                margin-top: 40px;
+                width: 100%;
+                text-align: justify;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+
+    .main-about{
+        width: 100%;
+
+        section{
+            display: grid; 
+            grid-template-columns: 0.1fr 0.9fr 1fr 0.1fr; 
+            grid-template-areas: 
+            ". h1 h1 ."
+            ". img img-about ."
+            ". p img-about ."
+            ". . . ."; 
+            margin-bottom: 10%;
+
+            h1{
+                width: 100%;
+                margin: 2% auto 4% auto;
+                grid-area: h1;
+            }
+        
+            img{
+                width: 25%;
+                grid-area: img;
+            }
+        
+            p{
+                font-size: 15px;
+                width: 100%;
+                grid-area: p
+            }
+        
+            .img-about{
+                width: 90%;
+                margin: auto;
+                grid-area: img-about;
+            }
+
+        }
+
+    }
+
+   
+
+   
+
+}
+
+@media (min-width:1600px){
+
+    .main-about{
+        section{
+            margin-bottom: 60px;
+
+            h1{
+                width: 10%;
+                margin: 20px auto;
+                grid-area: h1;
+                text-align: center;
+            }
+        
+            img{
+                width: 25%;
+                grid-area: img;
+            }
+        
+            p{
+                font-size: 25px;
+                width: 100%;
+                grid-area: p
+            }
+        
+            .img-about{
+                width: 70%;
+                margin: auto;
+                grid-area: img-about;
+            }
+
+        }
+    }  
+}

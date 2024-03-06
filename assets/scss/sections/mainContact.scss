@@ -1,0 +1,263 @@
+.main-contact{
+    display: grid; 
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;  
+    grid-template-areas: 
+      ". h1-contact h1-contact ."
+      "img-banner-contact img-banner-contact img-banner-contact img-banner-contact"
+      "h3-contact h3-contact h3-contact h3-contact"
+      ". form form ."; 
+    min-height: 80%;
+    min-height: 65vh;
+
+    .img-banner-contact{
+        width: 100%;
+        grid-area: img-banner-contact;
+    }
+
+    .h1-contact{
+        grid-area: h1-contact;
+        margin: 2% auto;
+    
+    }
+    
+    .h3-contact{
+        grid-area: h3-contact;
+        font-size: 85%;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    .form-contact{
+        grid-area: form;
+        width: 100%;
+
+        input{
+            width: 100%;
+            font-size: 12px;
+        }
+        
+        .button-form{
+            font-size:15px;
+            width:50%;
+            height:30px;
+            border-width:1px;
+            color:#666666;
+            border-color:#dcdcdc;
+            font-weight:bold;
+            border-top-left-radius:27px;
+            border-top-right-radius:27px;
+            border-bottom-left-radius:27px;
+            border-bottom-right-radius:27px;
+            box-shadow:inset 0px 1px 0px 0px #ffffff;
+            text-shadow:inset 0px 1px 0px #ffffff;
+            background:linear-gradient(#ffffff, #f6f6f6);
+            cursor: pointer;
+            margin: 2% 0 2% 25%;
+            :hover{
+                background: linear-gradient(#f6f6f6, #ffffff);
+            }
+        }
+            
+        textarea{
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+
+}
+
+@media (min-width: 600px){
+
+    .main-contact{
+        .h1-contact{
+            grid-area: h1-contact;
+            font-size: 50px;
+            margin: 2% auto;   
+        }
+    
+        .img-banner-contact{
+        grid-area: img-banner-contact;
+        }
+        
+        .h3-contact{
+            grid-area: h3-contact;
+            font-size: 25px;
+            margin: 3% auto;
+            text-align: center;
+        }
+    
+        .form-contact{
+            grid-area: form;
+            width: 80%;
+            margin: auto;
+
+            label{
+                font-size: 25px;
+            }
+        
+            input{
+                width: 100%;
+                font-size: 20px;
+            }
+            
+            .button-form{
+                font-size:15px;
+                width:50%;
+                height:40px;
+                border-width:1px;
+                color:#666666;
+                border-color:#dcdcdc;
+                font-weight:bold;
+                border-top-left-radius:27px;
+                border-top-right-radius:27px;
+                border-bottom-left-radius:27px;
+                border-bottom-right-radius:27px;
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                text-shadow:inset 0px 1px 0px #ffffff;
+                background:linear-gradient(#ffffff, #f6f6f6);
+                cursor: pointer;
+                margin: 2% 0 2% 25%;
+
+                :hover{
+                    background: linear-gradient(#f6f6f6, #ffffff);
+                }
+            }
+                      
+            textarea{
+                width: 100%;
+                font-size: 20px;
+            }
+        }  
+    }
+}
+     
+@media (min-width:1024px){
+
+    .main-contact{
+
+        .img-banner-contact{
+            grid-area: img-banner-contact;
+            width: 70%;
+            margin: auto;
+        }
+    
+        .h1-contact{
+            grid-area: h1-contact;
+            font-size: 50px;
+            margin: 1% auto;   
+        }
+            
+        .h3-contact{
+            grid-area: h3-contact;
+            font-size: 30px;
+            margin: 1% auto;
+            text-align: center;
+        }
+        
+        .form-contact{
+            grid-area: form;
+            width: 70%;
+            margin: auto;
+
+            label{
+                font-size: 25px;
+            }
+            
+            input{
+                width: 100%;
+                font-size: 20px;
+            }
+                
+            .button-form{
+                font-size:15px;
+                width:50%;
+                height:40px;
+                border-width:1px;
+                color:#666666;
+                border-color:#dcdcdc;
+                border-top-left-radius:27px;
+                border-top-right-radius:27px;
+                border-bottom-left-radius:27px;
+                border-bottom-right-radius:27px;
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                text-shadow:inset 0px 1px 0px #ffffff;
+                background:linear-gradient(#ffffff, #f6f6f6);
+                cursor: pointer;
+                margin: 2% 0 2% 25%;
+                font-weight:bold;
+
+                :hover{
+                    background: linear-gradient(#f6f6f6, #ffffff);
+                }
+            }
+                     
+            textarea{
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+    }  
+}
+
+@media (min-width:1600px){
+
+    .main-contact{
+        .img-banner-contact{
+            width: 40%;
+            margin: auto;
+        }
+    
+        .h1-contact{
+            font-size: 50px;
+            margin: 1% auto;   
+        }
+            
+        .h3-contact{
+            font-size: 30px;
+            margin: 1% auto;
+            text-align: center;
+        }
+        
+        .form-contact{
+            width: 70%;
+
+            label{
+                font-size: 25px;
+            }
+            
+            input{
+                width: 100%;
+                font-size: 20px;
+            }
+                
+            .button-form{
+                width:50%;
+                font-size:15px;
+                border-width:1px;
+                color:#666666;
+                border-color:#dcdcdc;
+                font-weight:bold;
+                border-top-right-radius:27px;
+                border-top-left-radius:27px;
+                border-bottom-right-radius:27px;
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                text-shadow:inset 0px 1px 0px #ffffff;
+                background:linear-gradient(#ffffff, #f6f6f6);
+                cursor: pointer;
+                margin: 2% 0 2% 25%;
+                font-family:Arial;
+                height:40px;
+                border-bottom-left-radius:27px;
+                
+                :hover{
+                    background: linear-gradient(#f6f6f6, #ffffff);
+                }            
+            }
+                
+            textarea{
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+    }
+}

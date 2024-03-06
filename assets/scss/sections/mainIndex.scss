@@ -1,0 +1,136 @@
+.main-index{
+    width: 100%;
+    min-height: 65vh;
+
+    .section-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .img-main{
+            width: 35%;
+            margin: 1% 0 1% 0;
+        }
+
+        .img-banner-index{
+            width: 100%;
+            box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+        }
+
+        h1{
+            width: 90%;
+            font-size: 25px;
+            margin: 5% auto 1% auto;
+            text-align: center;
+        }
+        
+        p{
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+            margin: 1% auto 2% auto;
+        }
+
+    }   
+}
+
+@media (min-width: 600px){
+
+    .main-index{
+
+        .section-index{
+
+            h1{
+                width: 90%;
+                font-size: 30px;
+                margin: 5% auto 1% auto;
+                text-align: center;
+            } 
+
+            p{
+                font-size: 30px;
+                text-align: center;
+                width: 90%;
+                margin: 1% auto 2% auto;
+            }
+        }
+       
+    }
+}
+
+@media (min-width:768px){
+
+    .main-index{
+
+        .section-index{
+
+            .img-main{
+                width: 30%;
+                margin: 1% 0 1% 0;
+            }
+
+            h1{
+                width: 100%;
+                font-size: 35px;
+                margin: 2% auto 1% auto;
+                text-align: center;
+            }
+            
+            p{
+                font-size: 30px;
+                text-align: center;
+                width: 90%;
+            }
+        
+        }
+    }
+}
+
+@media (min-width:1024px){
+
+    .main-index{
+        width: 100%;
+        margin: auto;
+
+        .section-index{
+
+            .img-main{
+                width: 10%;
+                margin: 1% 0 1% 0;
+            }
+        
+            .carousel-index{
+                width: 60%;
+                margin: auto;
+                box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+                -moz-box-shadow: 13px 15px 13px -4px rgba(0,0,0,0.75);
+            }
+        
+            .img-banner{
+                width: 100%;
+            }
+        
+            .img-banner-index{
+                width: 100%;
+                margin: auto;
+            }
+        
+            h1{
+                width: 100%;
+                font-size: 40px;
+                margin: 1% auto 0 auto;
+            }
+            
+            p{
+                font-size: 35px;
+                text-align: center;
+                width: 90%;
+            }
+        }
+    }
+}
