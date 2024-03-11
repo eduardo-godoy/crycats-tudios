@@ -7,7 +7,8 @@
   color: #3a3e3b; }
 
 body {
-  min-height: 100vh; }
+  min-height: 100vh;
+  background: linear-gradient(#f0eff4, white); }
 
 .header-desktop {
   display: none; }
@@ -141,7 +142,8 @@ body {
     width: 100%; }
     .main-index .section-index .img-main {
       width: 35%;
-      margin: 1% 0 1% 0; }
+      margin: 1% 0 1% 0;
+      animation: 2s infinite alternate animacion; }
     .main-index .section-index .img-banner-index {
       width: 100%;
       box-shadow: 13px 15px 13px -4px rgba(0, 0, 0, 0.75);
@@ -157,6 +159,30 @@ body {
       text-align: center;
       width: 90%;
       margin: 1% auto 2% auto; }
+
+@keyframes animacion {
+  0% {
+    opacity: 5%; }
+  1% {
+    opacity: 10%; }
+  20% {
+    opacity: 20%; }
+  30% {
+    opacity: 30%; }
+  40% {
+    opacity: 40%; }
+  50% {
+    opacity: 50%; }
+  60% {
+    opacity: 60%; }
+  70% {
+    opacity: 70%; }
+  80% {
+    opacity: 80%; }
+  90% {
+    opacity: 90%; }
+  100% {
+    opacity: 100%; } }
 
 @media (min-width: 600px) {
   .main-index .section-index h1 {
@@ -219,7 +245,8 @@ body {
   min-height: 65vh; }
   .main-contact .img-banner-contact {
     width: 100%;
-    grid-area: img-banner-contact; }
+    grid-area: img-banner-contact;
+    animation: 2s infinite alternate animacion; }
   .main-contact .h1-contact {
     grid-area: h1-contact;
     margin: 2% auto; }
@@ -256,6 +283,30 @@ body {
     .main-contact .form-contact textarea {
       width: 100%;
       font-size: 12px; }
+
+@keyframes animacion {
+  0% {
+    opacity: 5%; }
+  1% {
+    opacity: 10%; }
+  20% {
+    opacity: 20%; }
+  30% {
+    opacity: 30%; }
+  40% {
+    opacity: 40%; }
+  50% {
+    opacity: 50%; }
+  60% {
+    opacity: 60%; }
+  70% {
+    opacity: 70%; }
+  80% {
+    opacity: 80%; }
+  90% {
+    opacity: 90%; }
+  100% {
+    opacity: 100%; } }
 
 @media (min-width: 600px) {
   .main-contact .h1-contact {
