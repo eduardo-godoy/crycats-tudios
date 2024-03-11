@@ -143,7 +143,7 @@ body {
     .main-index .section-index .img-main {
       width: 35%;
       margin: 1% 0 1% 0;
-      animation: 2s infinite alternate animacion; }
+      animation: 1s 9 alternate animacion; }
     .main-index .section-index .img-banner-index {
       width: 100%;
       box-shadow: 13px 15px 13px -4px rgba(0, 0, 0, 0.75);
@@ -246,7 +246,7 @@ body {
   .main-contact .img-banner-contact {
     width: 100%;
     grid-area: img-banner-contact;
-    animation: 2s infinite alternate animacion; }
+    animation: 1s 9 alternate animacion; }
   .main-contact .h1-contact {
     grid-area: h1-contact;
     margin: 2% auto; }
