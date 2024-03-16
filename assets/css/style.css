@@ -7,7 +7,6 @@
   color: #3a3e3b; }
 
 body {
-  min-height: 100vh;
   background: linear-gradient(#f0eff4, white); }
 
 .header-desktop {
@@ -152,13 +151,13 @@ body {
     .main-index .section-index h1 {
       width: 90%;
       font-size: 25px;
-      margin: 5% auto 1% auto;
+      margin: 10% auto 1% auto;
       text-align: center; }
     .main-index .section-index p {
       font-size: 20px;
       text-align: center;
       width: 90%;
-      margin: 1% auto 2% auto; }
+      margin: 5% auto 2% auto; }
 
 @keyframes animacion {
   0% {
@@ -462,7 +461,7 @@ body {
       margin: auto;
       margin-top: 20px;
       width: 90%;
-      font-size: 13px;
+      font-size: 15px;
       text-align: center; }
 
 @media (min-width: 768px) {
@@ -527,6 +526,7 @@ body {
     width: 90%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; }
@@ -545,8 +545,9 @@ body {
       font-size: 15px; }
     .main-services section ul {
       width: 50%;
-      font-size: 10px;
-      margin: 15% auto 40px auto; }
+      font-size: 15px;
+      margin: 15% auto 40px auto;
+      order: 1; }
       .main-services section ul li {
         width: 100%; }
     .main-services section .img {
