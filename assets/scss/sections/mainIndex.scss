@@ -12,6 +12,7 @@
         .img-main{
             width: 35%;
             margin: 1% 0 1% 0;
+            animation: 1s 9 alternate animacion;
         }
 
         .img-banner-index{
@@ -34,8 +35,43 @@
             width: 90%;
             margin: 1% auto 2% auto;
         }
+    }
 
-    }   
+    @keyframes animacion {
+        0%{
+            opacity: 5%;
+        }
+        1%{
+            opacity: 10%;
+        }
+        20%{
+            opacity: 20%;
+        }
+        30%{
+            opacity: 30%;
+        }
+        40%{
+            opacity: 40%;
+        }
+        50%{
+            opacity: 50%;
+        }
+        60%{
+            opacity: 60%;
+        }
+        70%{
+            opacity: 70%;
+        }
+        80%{
+            opacity: 80%;
+        }
+        90%{
+            opacity: 90%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
 }
 
 @media (min-width: 600px){
