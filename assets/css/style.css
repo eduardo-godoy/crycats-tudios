@@ -453,21 +453,21 @@ body {
       margin: auto;
       margin-top: 10px; }
     .main-about section img {
-      margin: auto;
-      width: 49%;
+      margin: 0px 35%;
+      width: 30%;
       height: auto; }
     .main-about section .img-about {
-      width: 49%;
-      border-radius: 10%;
-      height: auto;
-      margin: auto; }
+      display: none; }
     .main-about section p {
       margin: auto;
       margin-top: 20px;
-      width: 100%;
-      text-align: justify; }
+      width: 90%;
+      font-size: 13px;
+      text-align: center; }
 
 @media (min-width: 768px) {
+  .main-about section .img-about {
+    display: block; }
   .main-about section p {
     margin: auto;
     margin-top: 40px;
@@ -481,19 +481,21 @@ body {
     .main-about section {
       display: grid;
       grid-template-columns: 0.1fr 0.9fr 1fr 0.1fr;
-      grid-template-areas: ". h1 h1 ." ". img img-about ." ". p img-about ." ". . . .";
-      margin-bottom: 10%; }
+      gap: 0;
+      grid-template-areas: ". h1 h1 ." ". img img-about ." ". p img-about ." ". . . ."; }
       .main-about section h1 {
         width: 100%;
-        margin: 2% auto 4% auto;
+        margin: 2% auto 2% auto;
         grid-area: h1; }
       .main-about section img {
         width: 25%;
-        grid-area: img; }
+        grid-area: img;
+        margin: auto; }
       .main-about section p {
         font-size: 15px;
         width: 100%;
-        grid-area: p; }
+        grid-area: p;
+        margin-top: 0px; }
       .main-about section .img-about {
         width: 90%;
         margin: auto;
@@ -784,22 +786,22 @@ body {
         margin: 20px 0 10px 5px;
         width: 100%; } }
 
-.footer h2 {
-  font-size: 14px;
-  width: 90%;
-  text-align: center;
-  margin: 5% auto 2% auto; }
-
-.footer p {
-  font-size: 15px;
-  text-align: center;
-  margin: 0; }
-
-.footer section {
-  text-align: center; }
-  .footer section a img {
-    width: 8%;
-    margin: 1% auto 1% auto; }
+.footer {
+  margin-top: 10%; }
+  .footer h2 {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    margin: 5% auto 2% auto; }
+  .footer p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0; }
+  .footer section {
+    text-align: center; }
+    .footer section a img {
+      width: 8%;
+      margin: 1% auto 1% auto; }
 
 @media (min-width: 600px) {
   .footer h2 {
