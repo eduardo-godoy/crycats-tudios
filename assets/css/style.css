@@ -786,22 +786,22 @@ body {
         margin: 20px 0 10px 5px;
         width: 100%; } }
 
-.footer {
-  margin-top: 10%; }
-  .footer h2 {
-    font-size: 14px;
-    width: 90%;
-    text-align: center;
-    margin: 5% auto 2% auto; }
-  .footer p {
-    font-size: 15px;
-    text-align: center;
-    margin: 0; }
-  .footer section {
-    text-align: center; }
-    .footer section a img {
-      width: 8%;
-      margin: 1% auto 1% auto; }
+.footer h2 {
+  font-size: 14px;
+  width: 90%;
+  text-align: center;
+  margin: 5% auto 2% auto; }
+
+.footer p {
+  font-size: 15px;
+  text-align: center;
+  margin: 0; }
+
+.footer section {
+  text-align: center; }
+  .footer section a img {
+    width: 8%;
+    margin: 1% auto 1% auto; }
 
 @media (min-width: 600px) {
   .footer h2 {
