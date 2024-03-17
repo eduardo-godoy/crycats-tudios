@@ -133,7 +133,7 @@ body {
 
 .main-index {
   width: 100;
-  min-height: 70vh; }
+  min-height: 65vh; }
   .main-index .section-index {
     display: flex;
     flex-direction: column;
