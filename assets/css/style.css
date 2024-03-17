@@ -7,7 +7,8 @@
   color: #3a3e3b; }
 
 body {
-  background: linear-gradient(#f0eff4, white); }
+  background: linear-gradient(#f0eff4, white);
+  min-height: 100vh; }
 
 .header-desktop {
   display: none; }
@@ -832,7 +833,7 @@ body {
         width: 100%; } }
 
 .footer {
-  margin-top: 5%; }
+  margin-top: 10%; }
   .footer h2 {
     font-size: 14px;
     width: 90%;
