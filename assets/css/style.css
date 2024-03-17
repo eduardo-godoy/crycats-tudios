@@ -133,7 +133,7 @@ body {
 
 .main-index {
   width: 100;
-  min-height: 65vh; }
+  min-height: 67vh; }
   .main-index .section-index {
     display: flex;
     flex-direction: column;
@@ -565,7 +565,7 @@ body {
       grid-area: img-about; } }
 
 .main-services {
-  min-height: 65vh; }
+  min-height: 67vh; }
   .main-services section {
     width: 90%;
     margin: auto;
