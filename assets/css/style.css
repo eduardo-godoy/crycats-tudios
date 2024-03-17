@@ -17,7 +17,8 @@ body {
   width: 100%; }
   .header .nav-mobile {
     width: 100%;
-    background-color: #9523B2; }
+    background-color: #9523B2;
+    color: white; }
   .header .a-logo {
     width: 20%; }
   .header .img-header {
@@ -461,8 +462,8 @@ body {
       margin: auto;
       margin-top: 20px;
       width: 90%;
-      font-size: 15px;
-      text-align: center; }
+      font-size: 14px;
+      text-align: left; }
 
 @media (min-width: 768px) {
   .main-about section .img-about {
@@ -479,9 +480,10 @@ body {
     width: 100%; }
     .main-about section {
       display: grid;
-      grid-template-columns: 0.1fr 0.9fr 1fr 0.1fr;
+      grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+      grid-template-rows: 0.1 1fr 1fr 1fr 1fr 0.1fr;
       gap: 0;
-      grid-template-areas: ". h1 h1 ." ". img img-about ." ". p img-about ." ". . . ."; }
+      grid-template-areas: ". h1 h1 ." ". img img-about ." ". p img-about ." ". p2 img-about ." ". p3 img-about ." ". . . ."; }
       .main-about section h1 {
         width: 100%;
         margin: 2% auto 2% auto;
@@ -494,6 +496,16 @@ body {
         font-size: 15px;
         width: 100%;
         grid-area: p;
+        margin-top: 0px; }
+      .main-about section .p {
+        font-size: 15px;
+        width: 100%;
+        grid-area: p2;
+        margin-top: 0px; }
+      .main-about section .p1 {
+        font-size: 15px;
+        width: 100%;
+        grid-area: p3;
         margin-top: 0px; }
       .main-about section .img-about {
         width: 90%;
@@ -544,9 +556,9 @@ body {
       margin: auto;
       font-size: 15px; }
     .main-services section ul {
-      width: 50%;
+      width: 60%;
       font-size: 15px;
-      margin: 15% auto 40px auto;
+      margin: auto;
       order: 1; }
       .main-services section ul li {
         width: 100%; }

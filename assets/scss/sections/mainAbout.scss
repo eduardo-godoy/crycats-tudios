@@ -28,8 +28,8 @@
             margin: auto;
             margin-top: 20px;
             width: 90%;
-            font-size: 15px;
-            text-align: center;
+            font-size: 14px;
+            text-align: left;
         }
     }   
 }
@@ -62,14 +62,16 @@
 
         section{
             display: grid; 
-            grid-template-columns: 0.1fr 0.9fr 1fr 0.1fr;
+            grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+            grid-template-rows: 0.1 1fr 1fr 1fr 1fr 0.1fr;
             gap: 0; 
             grid-template-areas: 
             ". h1 h1 ."
             ". img img-about ."
             ". p img-about ."
-            ". . . ."; 
-
+            ". p2 img-about ."
+            ". p3 img-about ."
+            ". . . .";
             h1{
                 width: 100%;
                 margin: 2% auto 2% auto;
@@ -86,6 +88,20 @@
                 font-size: 15px;
                 width: 100%;
                 grid-area: p;
+                margin-top: 0px;
+            }
+
+            .p{
+                font-size: 15px;
+                width: 100%;
+                grid-area: p2;
+                margin-top: 0px;
+            }
+
+            .p1{
+                font-size: 15px;
+                width: 100%;
+                grid-area: p3;
                 margin-top: 0px;
             }
         
