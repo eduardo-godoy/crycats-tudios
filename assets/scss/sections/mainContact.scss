@@ -1,4 +1,5 @@
 .main-contact{
+
     display: grid; 
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;  
     grid-template-areas: 
@@ -7,7 +8,7 @@
       "h3-contact h3-contact h3-contact h3-contact"
       ". form form ."; 
     min-height: 80%;
-    min-height: 65vh;
+    min-height: 66vh;
 
     .img-banner-contact{
         width: 100%;

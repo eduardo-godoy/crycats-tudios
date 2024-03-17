@@ -7,7 +7,8 @@
   color: #3a3e3b; }
 
 body {
-  background: linear-gradient(#f0eff4, white); }
+  background: linear-gradient(#f0eff4, white);
+  height: auto; }
 
 .header-desktop {
   display: none; }
@@ -133,7 +134,7 @@ body {
 
 .main-index {
   width: 100;
-  min-height: 67vh; }
+  min-height: 66vh; }
   .main-index .section-index {
     display: flex;
     flex-direction: column;
@@ -242,7 +243,7 @@ body {
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
   grid-template-areas: ". h1-contact h1-contact ." "img-banner-contact img-banner-contact img-banner-contact img-banner-contact" "h3-contact h3-contact h3-contact h3-contact" ". form form .";
   min-height: 80%;
-  min-height: 65vh; }
+  min-height: 66vh; }
   .main-contact .img-banner-contact {
     width: 100%;
     grid-area: img-banner-contact;
@@ -565,7 +566,7 @@ body {
       grid-area: img-about; } }
 
 .main-services {
-  min-height: 67vh; }
+  min-height: 66vh; }
   .main-services section {
     width: 90%;
     margin: auto;
@@ -831,22 +832,22 @@ body {
         margin: 20px 0 10px 5px;
         width: 100%; } }
 
-.footer h2 {
-  font-size: 14px;
-  width: 90%;
-  text-align: center;
-  margin: 5% auto 2% auto; }
-
-.footer p {
-  font-size: 15px;
-  text-align: center;
-  margin: 0; }
-
-.footer section {
-  text-align: center; }
-  .footer section a img {
-    width: 8%;
-    margin: 1% auto 1% auto; }
+.footer {
+  margin-top: 1%; }
+  .footer h2 {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    margin: 5% auto 2% auto; }
+  .footer p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0; }
+  .footer section {
+    text-align: center; }
+    .footer section a img {
+      width: 8%;
+      margin: 1% auto 1% auto; }
 
 @media (min-width: 600px) {
   .footer h2 {
