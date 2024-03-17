@@ -832,7 +832,7 @@ body {
         width: 100%; } }
 
 .footer {
-  margin-top: 10%; }
+  min-height: 20vh; }
   .footer h2 {
     font-size: 14px;
     width: 90%;
