@@ -444,8 +444,7 @@ body {
 .main-about {
   width: 90%;
   margin: auto;
-  min-height: 80%;
-  min-height: 72vh; }
+  height: 67vh; }
   .main-about section {
     width: 100%; }
     .main-about section h1 {
