@@ -444,7 +444,7 @@ body {
 .main-about {
   width: 90%;
   margin: auto;
-  height: 66.5vh; }
+  height: 65vh; }
   .main-about section {
     width: 100%; }
     .main-about section h1 {
@@ -565,7 +565,7 @@ body {
       grid-area: img-about; } }
 
 .main-services {
-  min-height: 66vh; }
+  min-height: 66.5vh; }
   .main-services section {
     width: 90%;
     margin: auto;
