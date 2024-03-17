@@ -52,6 +52,7 @@
 @media (min-width:768px){
 
     .main-about{
+        min-height: 95vh;
 
         section{
 
@@ -97,8 +98,7 @@
             ". img img-about ."
             ". p img-about ."
             ". p2 img-about ."
-            ". p3 img-about ."
-            ". . . .";
+            ". p3 img-about .";
             
             h1{
                 width: 100%;
@@ -151,6 +151,8 @@
 @media (min-width:1600px){
 
     .main-about{
+        min-height: 72vh;
+
         section{
             margin-bottom: 60px;
 
