@@ -134,7 +134,7 @@ body {
 
 .main-index {
   width: 100;
-  min-height: 66vh; }
+  min-height: 66.5vh; }
   .main-index .section-index {
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@ body {
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
   grid-template-areas: ". h1-contact h1-contact ." "img-banner-contact img-banner-contact img-banner-contact img-banner-contact" "h3-contact h3-contact h3-contact h3-contact" ". form form .";
   min-height: 80%;
-  min-height: 66vh; }
+  min-height: 66.5vh; }
   .main-contact .img-banner-contact {
     width: 100%;
     grid-area: img-banner-contact;
@@ -444,7 +444,7 @@ body {
 .main-about {
   width: 90%;
   margin: auto;
-  height: 67vh; }
+  height: 66.5vh; }
   .main-about section {
     width: 100%; }
     .main-about section h1 {
