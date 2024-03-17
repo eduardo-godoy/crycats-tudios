@@ -444,7 +444,7 @@ body {
   width: 90%;
   margin: auto;
   min-height: 80%;
-  min-height: 65vh; }
+  min-height: 72vh; }
   .main-about section {
     width: 100%; }
     .main-about section h1 {
@@ -464,11 +464,33 @@ body {
       width: 90%;
       font-size: 14px;
       text-align: left; }
+    .main-about section .p {
+      margin: auto;
+      margin-top: 20px;
+      width: 90%;
+      font-size: 14px;
+      text-align: left; }
+    .main-about section .p1 {
+      margin: auto;
+      margin-top: 20px;
+      width: 90%;
+      font-size: 14px;
+      text-align: left; }
 
 @media (min-width: 768px) {
-  .main-about section .img-about {
-    display: block; }
   .main-about section p {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    text-align: justify;
+    font-size: 25px; }
+  .main-about section .p {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    text-align: justify;
+    font-size: 25px; }
+  .main-about section .p1 {
     margin: auto;
     margin-top: 40px;
     width: 100%;
@@ -492,6 +514,8 @@ body {
         width: 25%;
         grid-area: img;
         margin: auto; }
+      .main-about section .img-about {
+        display: block; }
       .main-about section p {
         font-size: 15px;
         width: 100%;
@@ -524,9 +548,17 @@ body {
       width: 25%;
       grid-area: img; }
     .main-about section p {
-      font-size: 25px;
+      font-size: 20px;
       width: 100%;
       grid-area: p; }
+    .main-about section .p {
+      font-size: 20px;
+      width: 100%;
+      grid-area: p2; }
+    .main-about section .p1 {
+      font-size: 20px;
+      width: 100%;
+      grid-area: p3; }
     .main-about section .img-about {
       width: 70%;
       margin: auto;

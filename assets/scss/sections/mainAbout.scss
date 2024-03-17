@@ -2,7 +2,7 @@
     width: 90%;
     margin: auto;
     min-height: 80%;
-    min-height: 65vh;
+    min-height: 72vh;
 
     section{
         width: 100%;
@@ -31,6 +31,22 @@
             font-size: 14px;
             text-align: left;
         }
+
+        .p{
+            margin: auto;
+            margin-top: 20px;
+            width: 90%;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .p1{
+            margin: auto;
+            margin-top: 20px;
+            width: 90%;
+            font-size: 14px;
+            text-align: left;
+        }
     }   
 }
 
@@ -40,11 +56,23 @@
 
         section{
 
-            .img-about{
-                display: block;
-             }
-
             p{
+                margin: auto;
+                margin-top: 40px;
+                width: 100%;
+                text-align: justify;
+                font-size: 25px;
+            }
+
+            .p{
+                margin: auto;
+                margin-top: 40px;
+                width: 100%;
+                text-align: justify;
+                font-size: 25px;
+            }
+
+            .p1{
                 margin: auto;
                 margin-top: 40px;
                 width: 100%;
@@ -72,6 +100,7 @@
             ". p2 img-about ."
             ". p3 img-about ."
             ". . . .";
+            
             h1{
                 width: 100%;
                 margin: 2% auto 2% auto;
@@ -83,6 +112,10 @@
                 grid-area: img;
                 margin: auto;
             }
+
+            .img-about{
+                display: block;
+             }
         
             p{
                 font-size: 15px;
@@ -113,12 +146,7 @@
 
         }
 
-    }
-
-   
-
-   
-
+    }  
 }
 
 @media (min-width:1600px){
@@ -140,9 +168,21 @@
             }
         
             p{
-                font-size: 25px;
+                font-size: 20px;
                 width: 100%;
                 grid-area: p
+            }
+
+            .p{
+                font-size: 20px;
+                width: 100%;
+                grid-area: p2;
+            }
+
+            .p1{
+                font-size: 20px;
+                width: 100%;
+                grid-area: p3;
             }
         
             .img-about{
@@ -150,7 +190,6 @@
                 margin: auto;
                 grid-area: img-about;
             }
-
         }
     }  
 }
